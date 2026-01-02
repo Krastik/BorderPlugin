@@ -1,0 +1,30 @@
+name: BorderShrink
+version: 2.0
+main: krst.gamesOfBigMac.BorderShrinkPlugin
+api-version: 1.21
+author: YourName
+description: Border Shrink Battle Royale plugin
+
+commands:
+  border:
+    description: Управление игрой Border Shrink
+    usage: /border [start|forcestart|stop|setmin|setmax|settime]
+    permission: bordershrink.admin
+
+  bordersettings:
+    description: Настройки игры
+    usage: /bordersettings
+    permission: bordershrink.admin
+
+  teamspick:
+    description: Открыть меню команд
+    usage: /teamspick
+
+  classpick:
+    description: Открыть меню классов
+    usage: /classpick
+
+permissions:
+  bordershrink.admin:
+    description: Админские права
+    default: op
